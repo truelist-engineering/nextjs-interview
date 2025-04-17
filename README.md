@@ -14,7 +14,7 @@
 
 ## Intro
 
-This is a technical test that goes over some basic React/Typescript usage and data fetching. You are given a component that fetches an array of users from an API, and it should render a list of users on a left panel and a focused user on the a right panel. Clicking a user from the list on the left should show a detailed user card on the right. The response data for a user will be their name, email, phone number and address. We can assume the id, name, email and phone number will also be present, but the address is an object with optional properties for street, suite, city and zip code. If there is no address it will return an empty object.
+This is a technical test that goes over some basic React/Typescript usage and data fetching. You are given a component that fetches an array of users from an API, and it should render a list of users on a left panel and a focused user on the a right panel. Clicking a user from the list on the left should show a detailed user card on the right. The response data for a user will be their name, email, phone number and address. We can assume the id, name, email and phone number will also be present, but the address is an object with optional properties for street, suite, city and zip code. If there is no address data available, the API call will return an address value of an empty object.
 
 
 ## Requirements
